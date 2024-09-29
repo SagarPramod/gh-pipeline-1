@@ -8,5 +8,9 @@ jobs:
         run: echo "This is a github workflows demo"
       - name: display files
         run: ls -ltr
+      - name: add a file
+        run: touch file1.txt
+      - name: list again
+        run: ls -ltr
       - name: print bye
         run: echo "Goodbye from GitHub"
